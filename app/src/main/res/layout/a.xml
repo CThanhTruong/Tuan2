@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3BDBD">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="129dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="603dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="399dp"
+            android:layout_height="52dp"
+            android:text="TIẾN HÀNH ĐẶT HÀNG"
+            android:textSize="20"
+            android:textStyle="bold"
+            app:backgroundTint="@android:color/holo_red_dark"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thành tiền"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="141.800 đ"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="313dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="244dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem tại đây"
+            android:textColor="#134FEC"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="155dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="126dp"
+            android:layout_height="20dp"
+            android:text="Mã giảm giá đã lưu"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="155dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mua sau"
+            android:textColor="#134FEC"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="338dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="15"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/striking_text"
+            android:text="141.800 đ"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="101dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="141.800 đ"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cung cấp bởi Tiki Trading"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyên hàm tích phân và ứng dụng"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/book"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Áp dụng"
+            android:textStyle="bold"
+            app:backgroundTint="#0A5EB7"
+            tools:layout_editor_absoluteX="299dp"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="180dp"
+            android:layout_height="46dp"
+            android:background="@drawable/yellow_block"
+            android:text="Mã giảm giá"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:icon="@drawable/yellow_block"
+            app:iconTint=""
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="29dp"
+            android:layout_height="33dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView16"
+            app:srcCompat="@drawable/btnminus"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="29dp"
+            android:layout_height="33dp"
+            app:layout_constraintStart_toEndOf="@+id/textView16"
+            app:srcCompat="@drawable/btnadd__1_"
+            tools:layout_editor_absoluteY="117dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="269dp">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn có phiếu quà tặng Tiki/Got it/ Urbox?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tại đây?"
+            android:textColor="#134FEC"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="20dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="349dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tạm tính"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="141.800 đ"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="15dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
